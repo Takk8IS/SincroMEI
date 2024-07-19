@@ -1,0 +1,44 @@
+{
+    "name": "sincromei",
+    "version": "1.0.0",
+    "description": "API SincroMEI is an automated tool designed to synchronise MEI data from the Brazilian Federal Revenue Service.",
+    "type": "module",
+    "main": "sincromei-server.js",
+    "keywords": [
+        "sincromei",
+        "mei",
+        "receita federal",
+        "google sheets",
+        "microsoft excel",
+        "takk innovate studio",
+        "takk8is",
+        "david c cavalcante",
+        "davcavalcante"
+    ],
+    "author": {
+        "name": "David C Cavalcante",
+        "organization": "Takk Innovate Studio"
+    },
+    "license": "CC-BY-4.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/takk8is/sincromei.git"
+    },
+    "bugs": {
+        "url": "https://github.com/takk8is/sincromei/issues"
+    },
+    "homepage": "https://github.com/takk8is/sincromei#readme",
+    "scripts": {
+        "start": "node sincromei-server.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-rate-limit": "^7.3.1",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "winston": "^3.13.1"
+    }
+}
